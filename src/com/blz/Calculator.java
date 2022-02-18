@@ -9,9 +9,9 @@ public class Calculator {
         System.out.println ("Please enter the number");
         int a =sc.nextInt();
         int b =sc.nextInt();
-        int c = a * b ;
+        int c = a / b ;
 
-        System.out.println("The sum of numbers is: " + c);
+        System.out.println("The division of numbers is: " + c);
     }
 }
 
